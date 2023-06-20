@@ -1,0 +1,87 @@
+.pricecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 50px;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: wheat;
+  border-radius: 10px;
+}
+.basic {
+  font-size: 20px;
+}
+.bpricetag {
+  font-size: 45px;
+  font-weight: bold;
+}
+.basicbutton {
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.basicbutton:hover {
+  background-color: orange;
+}
+.standard {
+  font-size: 20px;
+}
+.spricetag {
+  font-size: 45px;
+  font-weight: bold;
+}
+.standardbutton {
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.standardbutton:hover {
+  background-color: orange;
+}
+.premium {
+  font-size: 20px;
+}
+.ppricetag {
+  font-size: 45px;
+  font-weight: bold;
+}
+.premiumbutton {
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.premiumbutton:hover {
+  background-color: orange;
+}
+ul.basiclist {
+  list-style-type: square;
+
+  padding-right: 80px;
+  margin-left: 50px;
+}
+ul.standardlist {
+  list-style-type: square;
+  padding-right: 80px;
+  margin-left: 50px;
+}
+ul.premiumlist {
+  list-style-type: square;
+  padding-right: 80px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .pricecontainer {
+    flex-direction: column;
+  }
+}
